@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="recipe_category1">ΓΛΥΚΑ</string>
+    <string name="recipe_category2">ΚΡΕΑΤΙΚΑ</string>
+    <string name="recipe_category3">ΘΑΛΑΣΣΙΝΑ</string>
+    <string name="ramsey_words">ΣΗΜΕΡΑ ΘΑ ΜΑΘΕΙΣ ΝΑ ΜΑΓΕΙΡΕΥΕΙΣ</string>
+    <string name="landscape_uni_text">ΔΙΑΛΕΞΕ ΤΙ ΘΑ ΜΑΓΕΙΡΕΨΕΙΣ ΣΗΜΕΡΑ</string>
+    <string name="hyperlink">ΠΑΤΑ ΓΙΑ ΝΑ ΔΕΙΣ ΚΑΙ ΤΗ ΣΥΝΤΑΓΗ ONLINE</string>
+    <string name="easter_secret">ΑΝΑΚΑΛΥΨΕΣ ΤΟ ΜΥΣΤΙΚΟ!</string>
+</resources>

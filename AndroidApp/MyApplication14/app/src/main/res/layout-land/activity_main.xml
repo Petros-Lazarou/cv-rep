@@ -1,0 +1,58 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="3"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/universal_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="#FF0000"
+        android:text="@string/landscape_uni_text"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:padding="16dp" />
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.myapplication.MainFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        tools:layout="@layout/fragment1" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.myapplication.SecondFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        tools:layout="@layout/fragment2" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.myapplication.ThirdFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        tools:layout="@layout/fragment3" />
+
+</GridLayout>
